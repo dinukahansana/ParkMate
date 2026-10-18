@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">ParkMate</string>
+
+    <string name="form_add_title">Add Parking Record</string>
+    <string name="form_edit_title">Edit Parking Record</string>
+    <string name="form_intro">Enter vehicle and parking details</string>
+
+    <string name="form_vehicle_number">Vehicle number</string>
+    <string name="form_number_hint">ABC-1234</string>
+    <string name="form_vehicle_type">Vehicle type</string>
+    <string name="vehicle_motorcycle">Motorcycle</string>
+    <string name="vehicle_car">Car</string>
+    <string name="vehicle_van">Van</string>
+
+    <string name="form_duration">Parking duration</string>
+    <string name="form_initial_hours">1 hour</string>
+    <string name="form_hours_range">1 to 12 hours</string>
+
+    <string name="form_fee_label">Parking fee</string>
+    <string name="form_select_type">Select a vehicle type</string>
+    <string name="form_fee_placeholder">--</string>
+    <string name="form_rate_details">Rs. %1$d.00 × %2$s</string>
+    <string name="money_amount">Rs. %1$d.00</string>
+
+    <string name="form_payment_received">Payment received</string>
+    <string name="form_save">Save Record</string>
+    <string name="form_save_changes">Save Changes</string>
+    <string name="form_cancel">Cancel</string>
+
+    <string name="form_number_required">Enter the vehicle number</string>
+    <string name="form_record_missing">This record is no longer available</string>
+    <string name="form_saved_count">Record saved. Total records: %1$d</string>
+    <string name="form_updated_count">Record updated. Total records: %1$d</string>
+
+    <plurals name="parking_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
 </resources>
