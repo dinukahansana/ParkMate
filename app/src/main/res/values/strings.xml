@@ -36,4 +36,33 @@
         <item quantity="one">%d hour</item>
         <item quantity="other">%d hours</item>
     </plurals>
+
+    <!-- Records screen -->
+    <string name="home_title">Parking Records</string>
+    <string name="home_records_label">Records</string>
+    <string name="home_collected_label">Collected</string>
+    <string name="home_empty_message">No parking records yet.\nTap Add Record to get started.</string>
+
+    <!-- Actions and status -->
+    <string name="action_add_record">Add Record</string>
+    <string name="action_view_details">View Details</string>
+    <string name="action_edit_record">Edit Record</string>
+    <string name="action_delete_record">Delete Record</string>
+    <string name="action_back_records">Back to Records</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_unpaid">Unpaid</string>
+    <string name="record_summary">%1$s • %2$s</string>
+
+    <!-- Details screen -->
+    <string name="details_title">Parking Details</string>
+    <string name="details_record_id">Record ID: PM-%1$03d</string>
+    <string name="details_vehicle_type">Vehicle type: %1$s</string>
+    <string name="details_duration">Parking duration: %1$s</string>
+    <string name="details_hourly_rate">Hourly rate: %1$s</string>
+
+    <!-- Delete confirmation -->
+    <string name="delete_title">Delete parking record?</string>
+    <string name="delete_message">Delete the parking record for %1$s?</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_success">Record deleted</string>
 </resources>
